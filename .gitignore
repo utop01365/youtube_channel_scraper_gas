@@ -1,0 +1,34 @@
+# Google Apps Script プロジェクト
+
+# APIキーなどの機密情報（Config.gsを編集した場合）
+# Config.gs
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# clasp関連（GAS CLIツール）
+.clasp.json
+.claspignore
+
+# Node.js関連（claspを使う場合）
+node_modules/
+package-lock.json
+yarn.lock
